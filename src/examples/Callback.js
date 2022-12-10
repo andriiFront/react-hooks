@@ -15,7 +15,7 @@ export function Callback() {
 
   return (
     <>
-      <h2 style={styles}>Number of elements: {count}</h2>
+      <h3 style={styles}>Number of elements: {count}</h3>
       <button
         onClick={() => setCount((prev) => prev + 1)}
         className="btn btn-success"

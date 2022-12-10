@@ -22,8 +22,8 @@ export function Ref() {
  
   return (
     <div className="container">
-      <h2>Number of renders: {renderCount.current}</h2>
-      <h2>Previous state: {prevValue.current}</h2>
+      <h3>Number of renders: {renderCount.current}</h3>
+      <h3>Previous state: {prevValue.current}</h3>
       <input ref={inputRef} type="text" onChange={e => setValue(e.target.value)} />
       <button className="btn btn-success" onClick={focus}>Focus</button>
     </div>

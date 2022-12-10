@@ -9,30 +9,31 @@ import { CustomHooks } from './examples/CustomHooks'
 function App() {
 
   return (
-    <div className="container">
+    <div className="container pt-3">
+      <h1 style={{color: 'darkred'}}>Basic hooks</h1>
       <br /><hr />
 
-      <h1 style={{color: 'darkcyan'}}>"UseState"</h1>
+      <h2 style={{color: 'darkcyan'}}>"UseState"</h2>
       <UseState />
       <br /><hr />
 
-      <h1 style={{color: 'darkcyan'}}>"UseEffect"</h1>
+      <h2 style={{color: 'darkcyan'}}>"UseEffect"</h2>
       <Effect />
       <br /><hr />
 
-      <h1 style={{color: 'darkcyan'}}>"UseRef"</h1>
+      <h2 style={{color: 'darkcyan'}}>"UseRef"</h2>
       <Ref />
       <br /><hr />
 
-      <h1 style={{color: 'darkcyan'}}>"UseMemo"</h1>
+      <h2 style={{color: 'darkcyan'}}>"UseMemo"</h2>
       <Memo /> 
       <br /><br /><hr />
 
-      <h1 style={{color: 'darkcyan'}}>"UseCallback"</h1>
+      <h2 style={{color: 'darkcyan'}}>"UseCallback"</h2>
       <Callback />
       <br /><hr />
 
-      <h1 style={{color: 'darkcyan'}}>"CustomHooks"</h1>
+      <h2 style={{color: 'darkcyan'}}>"CustomHooks"</h2>
       <CustomHooks />
     </div>
   );

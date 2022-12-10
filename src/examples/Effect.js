@@ -36,7 +36,7 @@ export function Effect() {
 
   return (
     <div className="container">
-      <h2>Source: {type}</h2>
+      <h3>Source: {type}</h3>
 
       <button onClick={() => setType('users')}>users</button>
       <button onClick={() => setType('todos')}>todo</button>

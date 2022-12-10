@@ -20,7 +20,7 @@ export function Memo() {
 
   return (
     <>
-      <h2 style={styles}>Сomputed property: {computed}</h2>
+      <h3 style={styles}>Сomputed property: {computed}</h3>
       <button
         onClick={() => setNumber((prev) => prev + 1)}
         className="btn btn-success"

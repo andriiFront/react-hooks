@@ -1,5 +1,5 @@
 # Training App (hooks)
-TAP **[PREVIEW LINK](______________)** TO SEE DEMO
+TAP **[PREVIEW LINK](https://andriifront.github.io/react-hooks/)** TO SEE DEMO
 
 
 ## Technologies
@@ -11,7 +11,7 @@ TAP **[PREVIEW LINK](______________)** TO SEE DEMO
   - useCallback
   - customHooks
 
-
+ 
 ## Code Description and Features
 This is a training app. 
 This application covers the main basic hooks
@@ -19,8 +19,8 @@ This application covers the main basic hooks
 
 ## Links
 Video: [link](https://www.youtube.com/watch?v=9KJxaFHotqI)
-WebPage: [link](_______)
-Code: [link](https://github.com/andriiFront/todoform-react-ts-router)
+WebPage: [link](https://andriifront.github.io/react-hooks/)
+Code: [link](https://github.com/andriiFront/react-hooks)
 
 
 ## My Contacts

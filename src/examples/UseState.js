@@ -34,7 +34,7 @@ function updateTitle() {
 
   return (
     <>
-      <h2>Counter: {counter}</h2>
+      <h3>Counter: {counter}</h3>
       <button onClick={increment} className="btn btn-success">Add</button>
       <button onClick={decrement} className="btn btn-danger">Remove</button>
       <button onClick={updateTitle} className="btn btn-warning">Update title</button>
